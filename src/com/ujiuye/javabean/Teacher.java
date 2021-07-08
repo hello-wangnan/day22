@@ -1,4 +1,4 @@
 package com.ujiuye.javabean;
 
-public class teacher {
+public class Teacher {
 }
