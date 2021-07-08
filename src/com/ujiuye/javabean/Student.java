@@ -4,7 +4,7 @@ public class Student {
     private int sid;
     private String sname;
     private int sage;
-
+    private String sphone;
     public Student() {
     }
 
@@ -37,4 +37,17 @@ public class Student {
     public void setSage(int sage) {
         this.sage = sage;
     }
+
+    public Student(String sphone) {
+        this.sphone = sphone;
+    }
+
+    public String getSphone() {
+        return sphone;
+    }
+
+    public void setSphone(String sphone) {
+        this.sphone = sphone;
+    }
+
 }
